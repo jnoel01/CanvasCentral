@@ -1,0 +1,96 @@
+html {
+    background-color: #eee2dc;
+}
+.icon-bar a {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 14%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 14px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 36px; /* Increased font size */
+  }
+  .icon-bar a big{
+      width: 60%;
+  
+  }
+  .icon-bar {
+    width: 100%; /* Full-width */
+    background-color: #BAB2b5; /* Dark-grey background */
+    overflow: auto; /* Overflow due to float */
+  }
+  .icon-bar a:hover {
+    background-color:		#123c69; /* Add a hover color */
+  }
+
+  .head {
+    display: flex;
+    background-color: rgb(5, 0, 78);
+}
+
+.column.side {
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+}
+
+.column.middle {
+   flex: 2;
+   padding: 10px;
+   align-self: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+  
+.active {
+    background-color: #AC3B61; /* Add an active/current color */
+  }
+  body{
+      background-color: 		#EEE2dc;
+  }
+  h1{
+      background-color:#EDC7b7 ;
+  }
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 11, 17);
+    font-size: 50px;
+    position: relative;
+    bottom: 30px;
+    margin-left: 30px;
+}
+
+.image {
+    position: relative;
+    bottom: 75px;
+}
+
+.description {
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    left: 650px;
+    bottom: 800px;
+    margin-right: 30px;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: 650px;  /*used for height and width of decription bubble*/
+    height: 145px;  /*used for height and width of decription bubble*/
+}
+
+.AT {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    left: 1000px; /*position of author and date created*/
+    bottom: 800px;
+    margin-right: 30px;
+    width: 375px;  /*used for height and width of decription bubble*/
+    height: 70px;  /*used for height and width of decription bubble*/
+}
